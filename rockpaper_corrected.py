@@ -21,9 +21,9 @@ while player_wins < 2 and computer_wins < 2:
         computer = "paper"
     else:
         computer = "scissors"
-    print(f"The computer plays:{computer}")
+    print(f"The computer plays: {computer}")
 
-    player = input("(Enter Your Choice):" ).lower()
+    player = input("(Enter Your Choice):").lower()
 
 # 1. if both player and compyter are same :
 
